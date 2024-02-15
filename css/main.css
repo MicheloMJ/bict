@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* Light blue */
+    text-align: center; /* Center content horizontally */
+    padding-top: 20px; /* Add some space at the top */
+}
+h1 {
+    color: #007bff; /* Blue */
+    font-size: 28px; /* Larger font size for headings */
+}
+table {
+    margin: 0 auto; /* Center the table horizontally */
+    width: 80%; /* Set table width to 80% of the viewport */
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+table, th, td {
+    border: 1px solid #007bff; /* Blue */
+    padding: 8px;
+    text-align: left;
+    white-space: nowrap; /* Prevent text wrapping */
+}
+th {
+    background-color: #007bff; /* Blue */
+    color: white;
+}
+td a {
+    text-decoration: none;
+    color: #007bff; /* Blue */
+}
+td a:hover {
+    font-weight: bold;
+}
+.button {
+    background-color: #007bff; /* Blue */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; /* Larger font size for buttons */
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.button:hover {
+    background-color: #0056b3; /* Darker blue */
+}
